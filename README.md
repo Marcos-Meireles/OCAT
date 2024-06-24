@@ -21,7 +21,7 @@ Este é um projeto básico do Django, criado para exibir uma mensagem "Hello, Wo
   - **migrations/**: Diretório para armazenar migrações do banco de dados.
   - **models.py**: Definição dos modelos da aplicação.
   - **tests.py**: Testes da aplicação.
-  - **views.py**: Vistas da aplicação (funções que retornam respostas HTTP).
+  - **views.py**: Views da aplicação (funções que retornam respostas HTTP).
   - **urls.py**: Arquivo de roteamento de URLs da aplicação.
 
 ## Configuração
@@ -71,7 +71,7 @@ Este é um projeto básico do Django, criado para exibir uma mensagem "Hello, Wo
 
     Abra o navegador e vá para `http://127.0.0.1:8000/hello/`. Você verá a mensagem "Hello, World!".
 
-## Explicação das Vistas
+## Explicação das Views
 
 No arquivo `hello/views.py`, há uma função simples que retorna uma resposta HTTP com a mensagem "Hello, World!".
 
