@@ -36,7 +36,7 @@ Este é um projeto básico do Django, criado para exibir uma mensagem "Hello, Wo
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/seu-usuario/myproject.git
+    git clone https://github.com/Marcos-Meireles/myproject.git
     cd myproject
     ```
 
