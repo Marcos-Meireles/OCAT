@@ -1,5 +1,61 @@
-/.idea
-/.ipynb_checkpoints
-/PycharmProjects
-/sparkproject
-/teste_fastAPI
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos e diretórios do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos do Django
+*.log
+*.pot
+db.sqlite3
+db.sqlite3-journal
+
+# Migrations (opcional: mantenha as migrações caso esteja em equipe)
+*/migrations/*
+!*/migrations/__init__.py
+
+# Arquivos de teste
+.coverage
+*.cover
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de ambientes virtuais e pacotes
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de configurações locais (exemplo: `.env` para variáveis de ambiente)
+*.env
+*.local
+
+# Static e media (se gerados dinamicamente, use apenas no deployment)
+staticfiles/
+media/
+
+# Arquivos de cache
+*.cache
+*.mo
+
+# Arquivos temporários
+*.swp
+*.swo
+*.tmp
